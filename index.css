@@ -109,3 +109,12 @@
 .read-more:hover{
     background: #719700;
 }
+
+footer{
+    background-color: rgb(3, 71, 30);
+    color: rgb(255, 255, 255);    
+}
+
+footer a{
+    color: rgb(255, 255, 255);
+}
