@@ -71,6 +71,15 @@
     animation-name: apareceLetra;
     animation-duration: 1750ms;
 }
+.slog-back{
+    font-family: 'Dancing Script', cursive;
+    font-size: 36px;
+    color: rgb(245, 245, 245);
+    text-shadow: 2px 3px 10px rgb(99, 99, 99);
+    text-align: end;
+    animation-name: apareceLetra;
+    animation-duration: 1750ms;
+}
 @keyframes apareceLetra{
     0%{opacity: 0;}
     100%{opacity: 1;}
@@ -93,8 +102,7 @@
     height: 250px;
 }
 .slog-about{
-    font-size: 32px;
-    font-family: 'CG Omega Bold';  
+    font-size: 32px;  
 }
 .read-more{
     display: block;
@@ -115,6 +123,7 @@
     background: #719700;
 }
 
+/*FOOTER*/
 .footer{
     width: 100%;
     background-color: rgb(3, 71, 30);
