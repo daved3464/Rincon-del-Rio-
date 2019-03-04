@@ -10,6 +10,7 @@
     width: 100%;
     grid-template-columns: 1fr;
     grid-gap: 50px;
+    justify-items: center;
 }
 /*HEADER*/
 .header{
@@ -46,9 +47,65 @@
     height: 670px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+}
+.logo-and-desc{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px;
 }
 .logo-back{
-    width: 350px;
-    height: 300px;
+    width: 300px;
+    height: 250px;
+    margin: 30px;
+}
+.desc-back{
+    font-size: 48px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 3px 10px rgb(99, 99, 99);
+    animation-name: apareceLetra;
+    animation-duration: 2500ms;
+}
+@keyframes apareceLetra{
+    0%{color: rgba(255, 255, 255, .2);}
+    50%{opacity: rgba(255, 255, 255, .5);}
+    100%{opacity: rgba(255, 255, 255, 1);}
+}
+
+/*Info y slogan*/
+.slogan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.slog-img{
+    width: 550px;
+    height: 250px;
+}
+.slog-about{
+    font-size: 32px;
+}
+.read-more{
+    display: block;
+    width: 85px;
+    height: 45px;
+    margin: 25px;
+    padding: 10px;
+    background: #99cc00;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgb(148, 167, 148);
+}
+.read-more:hover{
+    background: #719700;
 }
