@@ -4,10 +4,31 @@
     box-sizing: border-box;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-@font-face{
-    font-family: 'CG Omega Bold';
-    src: url("fonts/CG-Omega/CGOR65W.TTF") format("truetype");
+
+@font-face {
+    font-family: 'CG Omega';
+    src: url('./fonts/CG-Omega/CGOmega.woff2') format('woff2'),
+        url('./fonts/CG-Omega/CGOmega.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
+
+@font-face {
+    font-family: 'CG Omega';
+    src: url('./fonts/CG-Omega/CGOmega-Bold.woff2') format('woff2'),
+        url('./fonts/CG-Omega/CGOmega-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CG Omega';
+    src: url('./fonts/CG-Omega/CGOmega-Italic.woff2') format('woff2'),
+        url('./fonts/CG-Omega/CGOmega-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
 .main{
     display: grid;
     width: 100%;
@@ -94,7 +115,9 @@
 }
 .slog-about{
     font-size: 32px;
-    font-family: 'CG Omega Bold';  
+    font-family: 'CG Omega';  
+    font-style: normal;
+    font-weight: normal;
 }
 .read-more{
     display: block;
